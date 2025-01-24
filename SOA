@@ -1,1 +1,26 @@
-Primary nameserver: ns1.businessloansfast.us
+businessloansfast.us. 
+soa:businessloansfast.us
+
+IN SOA 
+
+ns1.businessloansfast.us. 
+ns2.businessloansfast.us.
+
+hostmaster.businessloansfast.us. 
+
+    2025012400 ; Serial
+    3600     ; Refresh (1 hour)
+    900      ; Retry (15 minutes)
+    604800   ; Expire (1 week)
+    86400    ; Minimum TTL (1 day)
+
+businessloansfast.us. 3600 IN A 185.199.108.153
+businessloansfast.us. 3600 IN A 185.199.109.153
+businessloansfast.us. 3600 IN A 185.199.110.153
+businessloansfast.us. 3600 IN A 185.199.111.153
+
+businessloansfast.us. 3600 IN AAAA 2606:50c0:8000::153
+businessloansfast.us. 3600 IN AAAA 2606:50c0:8001::153
+businessloansfast.us. 3600 IN AAAA 2606:50c0:8002::153
+businessloansfast.us. 3600 IN AAAA 2606:50c0:8003::153
+
