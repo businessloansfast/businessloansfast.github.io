@@ -1,2 +1,3 @@
-www.businessloansfast.us
-businessloansfast.us
+Host: www
+Type: CNAME
+Value: username.github.io
