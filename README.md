@@ -13,4 +13,13 @@ AAAA record
 2606:50c0:8003::153
 
 CNAME record
-businessloansfast.us
+businessloansfast.us 
+
+MX record
+@ MX 10 mx.zohomail.com. 
+@ MX 20 mx2.zohomail.com.
+@ MX 30 mx3.zohomail.com.
+
+
+
+
